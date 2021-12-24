@@ -1,0 +1,29 @@
+// IMPORT SECTION
+@import "node_modules/bootstrap/scss/bootstrap-reboot.scss";
+// @import "node_modules/slick-carousel/slick/slick.scss";
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+// FONTS LOAD SECTION
+// @mixin font($f-name, $f-style, $f-weight, $f-url) {
+//   @font-face {
+//     font-family: $f-name;
+//     font-style: $f-style;
+//     font-weight: $f-weight;
+//     font-display: swap;
+//     src: url($f-url + ".woff2") format("woff2");
+//     src: url($f-url + ".woff") format("woff");
+//   }
+// }
+
+// @include font(
+//   "PT Sans Narrow",
+//   normal,
+//   700,
+//   "../fonts/ptsansnarrow-bold-webfont"
+// );
+// @include font(
+//   "PT Sans Narrow",
+//   normal,
+//   400,
+//   "../fonts/ptsansnarrow-regular-webfont"
+// );
+$mainfamily: "PT Sans Narrow", sans-serif; // Main Font Family
